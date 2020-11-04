@@ -1,50 +1,36 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
+import Image from '../components/image'
 import SEO from "../components/seo"
+import Footer from '../components/footer'
+import './index.css'
 
 const IndexPage = () => (
-
   <>
-  <div
-    style={{
-      display: 'flex',
-      margin: `0 auto`,
-      padding: `0 1.0875rem 1.45rem`,
-    }}
-  >
     <main>
-      <SEO title="Home" />
-      <div
-          style={{
-            margin: `0 auto`,
-            padding: `2rem`
-          }}>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+        <SEO title="Home" />
+        <div style={{
+              margin: `0 auto`,
+              padding: `8rem`
+            }}>
+            <h1 className={'ottilia'}>ottilia westerlund</h1>
+            <Image style={{
+              marginLeft: '8rem'
+            }}/>
+            <p>maker of things // doer of stuff</p>
+            <Link className={'link'} to="/about-me/">about me</Link> 
+            <Link className={'link'} to="/photography/">photography</Link>
+            <Link className={'link'} to="/other-projects/">other projects</Link>
+        </div>
 
-        <h1>Ottilia Westerlund</h1>
-        <p>here's something interesting about me, and the stuff I do</p>
-        <Link to="/page-2/">about me</Link>
       </div>
-
-    
-      <div style={{ marginBottom: `1.45rem` }}>
-        
-      </div>
-      
+      <Footer />
     </main>
-  </div>
-  <footer style={{
-        marginTop: `2rem`,
-        padding: '0.5rem',
-        position: 'absolute',
-        left: 0,
-        bottom: 0,
-        width: '100%',
-        }}>
-        © {new Date().getFullYear()} - Ottilia Westerlund 
-      </footer>
 </>
 )
 
