@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ottilia Westerlund`,
-    description: `web developement//photography//crafts//security extravaganza`,
+    description: `<3`,
     author: `@ottiliaw`,
   },
   plugins: [
