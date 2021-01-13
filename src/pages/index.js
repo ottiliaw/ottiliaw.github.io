@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import Image from '../components/image'
 import SEO from "../components/seo"
-import Footer from '../components/footer'
 import './index.css'
 
 const IndexPage = () => (
@@ -29,7 +28,6 @@ const IndexPage = () => (
         </div>
 
       </div>
-      <Footer />
     </main>
 </>
 )

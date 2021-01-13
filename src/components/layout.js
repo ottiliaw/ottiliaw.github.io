@@ -41,16 +41,6 @@ const Layout = ({ children }) => {
             </div>
           </main>
       </div>
-        <footer style={{
-        marginTop: `2rem`,
-        padding: '0.5rem',
-        position: 'absolute',
-        left: 0,
-        bottom: 0,
-        width: '100%',
-        }}>
-        © {new Date().getFullYear()} - Ottilia Westerlund 
-      </footer>
     </>
   )
 }
