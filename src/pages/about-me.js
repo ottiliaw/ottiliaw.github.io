@@ -7,18 +7,11 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="About Me" />
-    <h1>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ </h1>
-    <p>i'm ottilia. I currently work as a web developer, and spend most of my time thinking about cyber security, art, music and cats. </p>
-    <p>((someday I will get around to finish this webpage))</p>
-    
-    <hr/>
-    <h4>Education</h4>
-    <h5>First Class B.Eng (Hons) in Computer Security and Forensics</h5>
-    <p>2014-2018 - Edinburgh Napier University <br></br>
-      My dissertation was published as a part of the 1st UAV IEEE conference in Oman 2019, and can be read <a href='https://ieeexplore.ieee.org/document/8658279'>here</a> 
-    </p>  <br></br>
+    <h1>hello there (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ </h1>
+    <p>I currently work as a web developer, and spend most of my time thinking about cyber security, art, music and cats. </p>
+    <p>This page is very much a work in progress.</p>
+    <p><a href='https://twitter.com/OttiliaW'>twitter</a>  / <a href='https://github.com/ottiliaw?tab=repositories'>github</a> </p>
 
-    <Link to="/">homepage</Link>
   </Layout>
 )
 

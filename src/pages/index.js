@@ -1,14 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 import Image from '../components/image'
 import SEO from "../components/seo"
 import Blob from "../components/blob"
+import Header from "../components/header.js"
 
 import './index.css'
 
 const IndexPage = () => (
   <>
     <main>
+      <Header  />
       <div style={{
         display: 'flex',
         justifyContent: 'center',
@@ -17,7 +18,7 @@ const IndexPage = () => (
         <SEO title="Home" />
         <div style={{
               margin: `0 auto`,
-              padding: `8rem`
+              padding: `4rem`
             }}>
             <h1 className={'ottilia'}>ottilia westerlund</h1>
             
@@ -26,9 +27,7 @@ const IndexPage = () => (
             }}/>
             <Blob />
             <p>maker of things // doer of stuff</p>
-            <Link className={'link'} to="/about-me/">about me</Link> 
-            <Link className={'link'} to="/photography/">photography</Link>
-            <Link className={'link'} to="/other-projects/">other projects</Link>
+
         </div>
 
       </div>
