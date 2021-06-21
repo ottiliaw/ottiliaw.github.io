@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Blob from "../components/blob"
 import Header from "../components/header.js"
 
-import './index.css'
+import './index.scss'
 
 const IndexPage = () => (
   <>

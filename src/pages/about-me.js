@@ -8,9 +8,9 @@ const SecondPage = () => (
   <Layout>
     <SEO title="About Me" />
     <h1>hello there (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ </h1>
-    <p>I currently work as a software engineer, and spend most of my time thinking about cyber security, privacy, art, music and cats. </p>
-    <p>This page is very much a work in progress.</p>
-    <p><a href='https://twitter.com/OttiliaW'>twitter</a>  / <a href='https://github.com/ottiliaw?tab=repositories'>github</a> </p>
+    <p>I currently work in security engineering, and spend most of my time thinking about crafts, art, music, cyber security and cats. (not necessarily that order) </p>
+    
+    <p>socials: <a href='https://twitter.com/OttiliaW'>twitter</a>  / <a href='https://github.com/ottiliaw?tab=repositories'>github</a> </p>
 
   </Layout>
 )

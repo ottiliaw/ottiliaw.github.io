@@ -4,9 +4,9 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="About Me" />
-    <h1>hello there</h1>
-    <p>there's meant to be photos here. look at <a href='https://www.instagram.com/tillywester'> this</a> meanwhile </p>
+    <SEO title="Photography" />
+    <h1>photography</h1>
+    <p>i take a lot of photos, mainly on 35mm film. (there's meant to be photos here. look at <a href='https://www.instagram.com/tillywester'> this</a> meanwhile )</p>
   </Layout>
 )
 
